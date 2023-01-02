@@ -14,6 +14,7 @@
     {"id":{"name":"FRLG_Exterior_Sprite","path":"sprites/FRLG_Exterior_Sprite/FRLG_Exterior_Sprite.yy",},"order":3,},
     {"id":{"name":"SecondGymCity","path":"rooms/SecondGymCity/SecondGymCity.yy",},"order":3,},
     {"id":{"name":"FRLG_Extra_Sprite","path":"sprites/FRLG_Extra_Sprite/FRLG_Extra_Sprite.yy",},"order":9,},
+    {"id":{"name":"Pokemon list","path":"notes/Pokemon list/Pokemon list.yy",},"order":1,},
     {"id":{"name":"Vermillion_City_Dock_Sprite","path":"sprites/Vermillion_City_Dock_Sprite/Vermillion_City_Dock_Sprite.yy",},"order":8,},
     {"id":{"name":"Ice_Cave_Leadup","path":"rooms/Ice_Cave_Leadup/Ice_Cave_Leadup.yy",},"order":5,},
     {"id":{"name":"brainstorms","path":"notes/brainstorms/brainstorms.yy",},"order":0,},
