@@ -19,6 +19,7 @@
     {"id":{"name":"TileSet5","path":"tilesets/TileSet5/TileSet5.yy",},"order":10,},
     {"id":{"name":"tileset_pokemon_4","path":"sprites/tileset_pokemon_4/tileset_pokemon_4.yy",},"order":25,},
     {"id":{"name":"Route3","path":"rooms/Route3/Route3.yy",},"order":2,},
+    {"id":{"name":"Route14","path":"rooms/Route14/Route14.yy",},"order":6,},
     {"id":{"name":"ThirdGymCity","path":"rooms/ThirdGymCity/ThirdGymCity.yy",},"order":4,},
     {"id":{"name":"TileSet3_5","path":"tilesets/TileSet3_5/TileSet3_5.yy",},"order":20,},
     {"id":{"name":"SmallTree","path":"sprites/SmallTree/SmallTree.yy",},"order":28,},
@@ -89,6 +90,7 @@
     {"roomId":{"name":"Route13","path":"rooms/Route13/Route13.yy",},},
     {"roomId":{"name":"TownR12","path":"rooms/TownR12/TownR12.yy",},},
     {"roomId":{"name":"Gym8Town","path":"rooms/Gym8Town/Gym8Town.yy",},},
+    {"roomId":{"name":"Route14","path":"rooms/Route14/Route14.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":11,},
