@@ -32,6 +32,7 @@
     {"id":{"name":"TileSet3_1","path":"tilesets/TileSet3_1/TileSet3_1.yy",},"order":11,},
     {"id":{"name":"FRLG_Exterior_Sprite_1","path":"sprites/FRLG_Exterior_Sprite_1/FRLG_Exterior_Sprite_1.yy",},"order":10,},
     {"id":{"name":"SecondGymCity","path":"rooms/SecondGymCity/SecondGymCity.yy",},"order":3,},
+    {"id":{"name":"TownR4","path":"rooms/TownR4/TownR4.yy",},"order":5,},
     {"id":{"name":"Game_Boy_Advance___Pokemon_FireRed_LeafGreen___Tileset_2","path":"sprites/Game_Boy_Advance___Pokemon_FireRed_LeafGreen___Tileset_2/Game_Boy_Advance___Pokemon_FireRed_LeafGreen___Tileset_2.yy",},"order":17,},
     {"id":{"name":"FRLG_Extra_Sprite","path":"sprites/FRLG_Extra_Sprite/FRLG_Extra_Sprite.yy",},"order":9,},
     {"id":{"name":"TileSet5_1","path":"tilesets/TileSet5_1/TileSet5_1.yy",},"order":13,},
@@ -95,6 +96,7 @@
     {"roomId":{"name":"TownR12","path":"rooms/TownR12/TownR12.yy",},},
     {"roomId":{"name":"Gym8Town","path":"rooms/Gym8Town/Gym8Town.yy",},},
     {"roomId":{"name":"Route14","path":"rooms/Route14/Route14.yy",},},
+    {"roomId":{"name":"TownR4","path":"rooms/TownR4/TownR4.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":11,},
