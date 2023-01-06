@@ -1,0 +1,63 @@
+{
+  "resourceType": "GMRoom",
+  "resourceVersion": "1.0",
+  "name": "CaveR3",
+  "isDnd": false,
+  "volume": 1.0,
+  "parentRoom": null,
+  "views": [
+    {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
+    {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
+    {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
+    {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
+    {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
+    {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
+    {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
+    {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
+  ],
+  "layers": [
+    {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_1","tilesetId":{"name":"TileSet3_8","path":"tilesets/TileSet3_8/TileSet3_8.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":86,"SerialiseHeight":48,"TileCompressedData":[
+-2932,-2147483648,2,216,217,-84,-2147483648,2,216,217,-84,-2147483648,2,216,217,-84,-2147483648,2,216,217,-84,-2147483648,2,216,217,-850,-2147483648,],},"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+    {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_2","tilesetId":{"name":"pokeball_1","path":"tilesets/pokeball_1/pokeball_1.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":86,"SerialiseHeight":48,"TileCompressedData":[
+-2150,-2147483648,2,944,1115,-26,1112,1,945,-57,-2147483648,2,1061,973,-5,-2147483648,2,973,1111,-11,1112,9,1117,973,1062,1055,1061,36,-2147483648,-2147483648,1055,-57,-2147483648,1,1061,-22,-2147483648,6,1055,888,888,1033,-2147483648,1055,-57,-2147483648,1,1061,-22,-2147483648,6,1055,859,859,1061,-2147483648,1055,-57,-2147483648,1,1061,-4,-2147483648,1,1027,-5,888,1,1033,-11,-2147483648,6,1055,859,859,1061,-2147483648,1055,-57,-2147483648,1,1061,-4,-2147483648,1,1111,
+-5,1112,3,1117,1027,1028,-6,1029,9,1032,1033,-2147483648,1111,1112,1112,1117,-2147483648,1055,-57,-2147483648,1,1061,-10,-2147483648,3,973,1055,1056,-6,-2147483648,2,1060,1061,-6,-2147483648,1,1055,-57,-2147483648,3,1061,-2147483648,36,-9,-2147483648,2,1055,1056,-6,-2147483648,2,1060,1061,-5,-2147483648,2,973,1055,-57,-2147483648,1,1061,-11,-2147483648,4,1055,1084,1087,1087,-4,-2147483648,2,1060,1061,-6,-2147483648,1,1055,-57,-2147483648,2,1061,944,-5,1115,3,
+1112,-2147483648,-2147483648,-5,1112,2,945,-2147483648,-3,1087,3,1088,1061,973,-63,-2147483648,-2,1061,1,973,-12,-2147483648,2,1055,1027,-9,888,1,1033,-59,-2147483648,-2,1061,-13,-2147483648,2,1055,1083,-9,859,1,1061,-59,-2147483648,-2,1061,-4,1005,-9,-2147483648,2,1055,1111,-8,1112,4,1116,1117,1113,1114,-57,-2147483648,-2,1061,-2,1005,7,1027,1028,1029,1030,1031,1032,1033,-4,-2147483648,1,1111,-9,1112,-2,1116,2,1113,1114,-57,
+-2147483648,-2,1061,-2,1005,7,1055,1056,1057,1058,1059,1060,1061,-6,-2147483648,1,973,-68,-2147483648,-2,1061,-2,1005,7,1083,1084,1085,1086,1087,1088,1089,-5,-2147483648,3,36,-2147483648,973,-9,-2147483648,1,1027,-57,-2147483648,-2,1061,10,1005,860,1111,1112,1113,1114,1115,1116,1117,973,-5,-2147483648,-2,973,-9,-2147483648,1,1055,-57,-2147483648,-2,1061,-4,1005,-2,-2147483648,1,1027,-9,888,1,1033,-9,-2147483648,1,1055,-57,-2147483648,-2,1061,
+-4,1005,-2,-2147483648,1,1055,-9,859,1,1061,-4,-2147483648,1,36,-4,-2147483648,1,1055,-57,-2147483648,1,1061,-4,888,4,1033,-2147483648,-2147483648,1073742055,-9,859,1,1061,-9,-2147483648,1,1055,-57,-2147483648,1,1061,-4,859,4,1061,-2147483648,-2147483648,1073742055,-9,859,1,1610613849,-9,-2147483648,1,1055,-57,-2147483648,1,1061,-4,859,4,1061,-2147483648,-2147483648,1055,-9,859,1,1610613850,-8,-2147483648,2,973,1055,-57,-2147483648,1,1061,-4,859,4,1061,-2147483648,-2147483648,
+1055,-9,859,2,1061,1027,-8,888,1,944,-57,-2147483648,],},"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+    {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_3","tilesetId":{"name":"pokeball_1","path":"tilesets/pokeball_1/pokeball_1.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":86,"SerialiseHeight":48,"TileCompressedData":[
+-2150,-2147483648,-29,1057,-57,-2147483648,-29,1057,-57,-2147483648,-29,1057,-57,-2147483648,-29,1057,-57,-2147483648,-29,1057,-57,-2147483648,-29,1057,-57,-2147483648,-29,1057,-57,-2147483648,-29,1057,-57,-2147483648,-29,1057,-57,-2147483648,-29,1057,-57,-2147483648,-29,1057,-57,-2147483648,-29,1057,-57,-2147483648,-29,1057,-57,-2147483648,-29,1057,-57,-2147483648,-29,1057,-57,-2147483648,-29,1057,-57,-2147483648,-29,1057,-57,-2147483648,-29,1057,-57,-2147483648,-9,1057,-9,859,-11,1057,-57,-2147483648,-8,1057,-10,859,
+-11,1057,-57,-2147483648,-8,1057,-10,859,-11,1057,-57,-2147483648,-9,1057,-2,859,1,1057,-6,859,-11,1057,-57,-2147483648,-9,1057,-9,859,-11,1057,-57,-2147483648,],},"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","instances":[],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","spriteId":null,"colour":4278190080,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+  ],
+  "inheritLayers": false,
+  "creationCodeFile": "",
+  "inheritCode": false,
+  "instanceCreationOrder": [],
+  "inheritCreationOrder": false,
+  "sequenceId": null,
+  "roomSettings": {
+    "inheritRoomSettings": false,
+    "Width": 1366,
+    "Height": 768,
+    "persistent": false,
+  },
+  "viewSettings": {
+    "inheritViewSettings": false,
+    "enableViews": false,
+    "clearViewBackground": false,
+    "clearDisplayBuffer": true,
+  },
+  "physicsSettings": {
+    "inheritPhysicsSettings": false,
+    "PhysicsWorld": false,
+    "PhysicsWorldGravityX": 0.0,
+    "PhysicsWorldGravityY": 10.0,
+    "PhysicsWorldPixToMetres": 0.1,
+  },
+  "parent": {
+    "name": "Rooms",
+    "path": "folders/Rooms.yy",
+  },
+}

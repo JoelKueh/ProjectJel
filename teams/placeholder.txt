@@ -1,0 +1,7 @@
+Bidoof  
+Ability: Simple  
+Tera Type: Normal  
+- Aqua Tail  
+- Blizzard  
+- Crunch  
+- Curse
