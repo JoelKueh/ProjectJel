@@ -1,0 +1,20 @@
+Sneasel (F)  
+Ability: Keen Eye  
+Level: 13  
+Tera Type: Dark    
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe  
+- Scratch  
+- Taunt  
+- Icy Wind  
+- Quick Attack  
+
+Snorunt (F)  
+Ability: Inner Focus  
+Level: 11  
+Tera Type: Ice  
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe  
+- Icy Wind  
+- Astonish  
+- Leer  
+- Safeguard  
+
