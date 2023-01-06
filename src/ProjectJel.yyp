@@ -99,7 +99,6 @@
     {"id":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},"order":16,},
     {"id":{"name":"TileSet3_8","path":"tilesets/TileSet3_8/TileSet3_8.yy",},"order":28,},
     {"id":{"name":"Buildings_FRLG_TS","path":"tilesets/Buildings_FRLG_TS/Buildings_FRLG_TS.yy",},"order":0,},
-  
     {"id":{"name":"Other_Water_BB","path":"sprites/Other_Water_BB/Other_Water_BB.yy",},"order":5,},
     {"id":{"name":"_display_manager","path":"objects/_display_manager/_display_manager.yy",},"order":0,},
     {"id":{"name":"Other_Purple_BB","path":"sprites/Other_Purple_BB/Other_Purple_BB.yy",},"order":4,},
@@ -158,13 +157,11 @@
     {"roomId":{"name":"SeventhGymCity","path":"rooms/SeventhGymCity/SeventhGymCity.yy",},},
     {"roomId":{"name":"SixthGymCity","path":"rooms/SixthGymCity/SixthGymCity.yy",},},
     {"roomId":{"name":"EighthGymCity","path":"rooms/EighthGymCity/EighthGymCity.yy",},},
-  
     {"roomId":{"name":"Battle_Scene","path":"rooms/Battle_Scene/Battle_Scene.yy",},},
     {"roomId":{"name":"_display_init","path":"rooms/_display_init/_display_init.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":11,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Battle_Scene","folderPath":"folders/Battle_Scene.yy","order":15,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Battle_Scene","folderPath":"folders/Battle_Scene.yy","order":15,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Battle_Background","folderPath":"folders/Battle_Scene/Battle_Background.yy","order":2,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Extensions","folderPath":"folders/Extensions.yy","order":13,},
@@ -175,9 +172,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy","order":8,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Paths","folderPath":"folders/Paths.yy","order":3,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy","order":9,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Buildings","folderPath":"folders/Rooms/Buildings.yy","order":3,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Routes","folderPath":"folders/Rooms/Routes.yy","order":1,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Towns","folderPath":"folders/Rooms/Towns.yy","order":2,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Buildings","folderPath":"folders/Rooms/Buildings.yy","order":3,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Init","folderPath":"folders/Rooms/Init.yy","order":4,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Routes","folderPath":"folders/Rooms/Routes.yy","order":1,},
