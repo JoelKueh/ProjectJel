@@ -254,7 +254,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Menu_System",
-    "path": "folders/Menu_System.yy",
+    "name": "src",
+    "path": "src.yyp",
   },
 }
