@@ -1,11 +1,11 @@
 Sneasel, Weavile
 Snorunt, Glalie, Froslass
-Eevee and all eeveelutions
-Vulpix, Ninetales (and Alolan forms)
+Eevee, Vaporeon, Flareon, Jolteon, Espeon, Umbreon, Leafeon, Glaceon, Sylveon
+Vulpix, Ninetales, Alolan Vulpix, Alolan Ninetales
 Cubchoo, Beartic
 Lapras
 Onix, Steelix
-Drilbur, Excadrill
+Drilbur,Excadrill
 Nincada, Ninjask, Shedinja
 Tympole, Palpitoad, Seismitoad
 Timburr, Gurdurr, Conkeldurr
@@ -37,7 +37,7 @@ Pidgey, Pidgeotto, Pidgeot
 Rufflet, Braviary
 Aerodactyl
 Fletchling, Fletchinder, Talonflame
-Porygon, Porygon2, Porygon-Z
+Porygon, Porygon2,Porygon-Z
 Buneary, Lopunny
 Tauros
 Helioptile, Heliolisk
@@ -54,7 +54,7 @@ Snover, Abomasnow
 Phantump, Trevenant
 Marenie, Toxapex
 Spheal, Sealeo, Walrein
-Mantyke, Mantine
+Mantyke,Mantine
 Shellos, Gastrodon
 Frillish, Jellicent
 Tynamo, Eelektrik, Eelektross
@@ -74,3 +74,66 @@ Wishiwashi
 Archen, Archeops
 Larvesta, Volcarona
 Golett, Golurk
+Bulbasaur, Ivysaur, Venusaur
+Charmander, Charmeleon, Charizard
+Squirtle, Wartortle, Blastoise,
+Weedle, Kakuna, Beedrill,
+Pichu, Pikachu, Raichu
+Magnemite, Magneton, Magnezone
+Shellder, Cloyster
+Cubone, Marowak
+Tangela, Tangrowth
+Ditto
+Chikorita, Bayleaf, Meganium
+Cyndaquil, Quilava, Typhlosion
+Totodile, Croconaw, Feraligatr
+Sentret, Furret
+Mareep, Flaaffy, Ampharos
+Sudowoodo
+Shuckle
+Smeargle
+Treecko, Grovyle, Sceptile
+Torchic, Combusken, Blaziken
+Mudkip, Marshtomp, Swampert
+Lotad, Lombre, Ludicolo
+Torkoal
+Swablu, Altaria,
+Baltoy, Claydol
+Feebas, Milotic
+Bagon, Shelgon, Salamence
+Beldum, Metang, Metagross
+Turtwig, Grotle, Torterra
+Chimchar, Monferno, Infernape
+Piplup, Prinplup, Empoleon
+Bidoof, Bibarel
+Drifloon, Drifblim
+Bronzor, Bronzong
+Gible, Gabite, Garchomp
+Riolu, Lucario
+Snivy, Servine, Serperior
+Tepig, Pignite, Emboar
+Oshawott, Dewott, Samurott
+Sandile, Krokorok, Krookodile
+Zorua, Zoroark
+Ferroseed, Ferrothorn
+Klink, Klang, Klinklang
+Axew, Fraxure, Haxorus
+Deino, Zweilous, Hydreigon
+Chespin, Quilladin, Chesnaught
+Fennekin, Braixen, Delphox
+Froakie, Frogadier, Greninja
+Espurr, Meowstic
+Honedge, Doublade, Aegislash
+Tyrunt, Tyrantrum
+Hawlucha
+Goomy, Sliggoo, Goodra
+Klefki
+Salandit, Salazzle
+Dhelmise
+Grookey, Thwackey, Rillaboom
+Scorbunny, Raboot, Cinderace
+Sobble, Drizzile, Inteleon
+Impidimp, Morgrem, Grimmsnarl
+Arctovish?
+
+323 Pokemon, 137 Evolution lines
