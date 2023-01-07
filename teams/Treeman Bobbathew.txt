@@ -1,0 +1,32 @@
+Kirlia  
+Ability: Synchronize  
+Level: 25  
+Tera Type: Psychic  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Draining Kiss  
+- Psybeam  
+- Double Team  
+- Life Dew  
+
+Tropius  
+Ability: Harvest  
+Level: 30  
+Tera Type: Grass  
+Naive Nature  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Razor Leaf  
+- Magical Leaf  
+- Whirlwind  
+- Wide Guard  
+
+Quilladin @ Assault Vest  
+Ability: Overgrow  
+Level: 32  
+Tera Type: Grass  
+Careful Nature  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Bite  
+- Leech Seed  
+- Pin Missile  
+- Seed Bomb  
+

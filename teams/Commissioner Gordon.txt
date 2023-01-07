@@ -1,0 +1,11 @@
+Morgrem  
+Ability: Prankster  
+Level: 32  
+Tera Type: Dark  
+Impish Nature  
+IVs: 0 HP / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Flatter  
+- Assurance  
+- Sucker Punch  
+- Torment  
+
