@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Battle_Background",
-    "path": "folders/Battle_Scene/Battle_Background.yy",
+    "name": "src",
+    "path": "src.yyp",
   },
 }

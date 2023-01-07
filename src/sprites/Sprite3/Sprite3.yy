@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Title_Scene",
-    "path": "folders/Title_Scene.yy",
+    "name": "src",
+    "path": "src.yyp",
   },
 }

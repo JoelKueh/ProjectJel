@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "ProjectJel",
-    "path": "ProjectJel.yyp",
+    "name": "src",
+    "path": "src.yyp",
   },
 }
