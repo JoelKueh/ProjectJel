@@ -4,8 +4,8 @@
 width = 80;
 height = 47;
 
-x = window_get_width() - width;
-y = window_get_height() - height;
+x = 256 - width;
+y = 192 - height;
 
 bm_border = 0;
 bm_space = 16;
