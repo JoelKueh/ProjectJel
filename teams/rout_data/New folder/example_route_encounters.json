@@ -1,0 +1,19 @@
+{
+  "encounters": [
+    {
+      "name": "magnemite",
+      "min_lvl": 23,
+      "max_lvl": 27
+    },
+    {
+      "name": "quilfish",
+      "min_lvl": 22,
+      "max_lvl": 26
+    },
+    {
+      "mame": "tyranitar",
+      "min_lvl": 90,
+      "max_lvl": 100
+    }
+  ]
+}
