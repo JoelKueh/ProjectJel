@@ -1,0 +1,10 @@
+Sandile @ Salac Berry  
+Ability: Intimidate  
+Level: 15  
+Tera Type: Ground  
+IVs: 0 HP / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Scary Face  
+- Sand Tomb  
+- Scary Face  
+- Bite  
+

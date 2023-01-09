@@ -1,0 +1,22 @@
+Axew  
+Ability: Rivalry  
+Level: 18  
+Tera Type: Dragon  
+Docile Nature  
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Bite  
+- Taunt  
+- Slash  
+- Dragon Claw  
+
+Tyrunt @ Salac Berry  
+Ability: Sturdy  
+Level: 20  
+Tera Type: Rock  
+Sassy Nature  
+IVs: 0 HP / 0 Def / 0 SpA / 0 SpD / 0 Spe  
+- Tail Whip  
+- Ancient Power  
+- Charm  
+- Dragon Tail  
+
