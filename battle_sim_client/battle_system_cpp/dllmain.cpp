@@ -37,11 +37,13 @@ func double Start_Battle_Srv()
     memset(&process_info, 0, sizeof(PROCESS_INFORMATION));
 
     // TODO: IMPLEMENT PORT BUSY CHECK
-    int port_num = 27923;
-    std::string command = R"(battle_sim_srv\battle_sim_srv.exe)" + std::to_string(port_num);
-    LPSTR lp_command = const_cast<char *>(command.c_str());
+    int port_num = 10000;
+    std::string name = R"(battle_sim_srv\battle_sim_srv.exe)";
+    std::string command = name + " " + std::to_string(port_num);
+    LPSTR lp_name = const_cast<char*>(name.c_str());
+    LPSTR lp_command = const_cast<char*>(command.c_str());
     bool result = CreateProcessA(
-        NULL,
+        lp_name,
         lp_command,
         NULL,
         NULL,
@@ -52,6 +54,7 @@ func double Start_Battle_Srv()
         &startup_info,
         &process_info
     );
+    WaitForSingleObject(process_info.hProcess, INFINITE);
 
     if (result)
         return port_num;
@@ -61,10 +64,10 @@ func double Start_Battle_Srv()
 
 func double Close_Battle_Srv()
 {
-    bool result = CloseHandle(process_info.hProcess);
-    result &= CloseHandle(process_info.hThread);
+    bool process_closed = CloseHandle(process_info.hProcess);
+    bool thread_closed = CloseHandle(process_info.hThread);
     
-    if (result)
+    if (process_closed && thread_closed)
         return 1;
     else
         return -1;
