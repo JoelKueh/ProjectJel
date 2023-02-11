@@ -2,26 +2,19 @@
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
   "name": "F1",
+  "creationCodeFile": "",
+  "inheritCode": false,
+  "inheritCreationOrder": false,
+  "inheritLayers": false,
+  "instanceCreationOrder": [],
   "isDnd": false,
-  "volume": 1.0,
-  "parentRoom": null,
-  "views": [
-    {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
-    {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
-    {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
-    {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
-    {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
-    {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
-    {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
-    {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
-  ],
   "layers": [
-    {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_4","tilesetId":{"name":"pokeball_2","path":"tilesets/pokeball_2/pokeball_2.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":44,"SerialiseHeight":31,"TileCompressedData":[
+    {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_4","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":31,"SerialiseWidth":44,"TileCompressedData":[
 -359,-2147483648,1,36,-489,-2147483648,1,1028,-3,1029,1,1032,-39,-2147483648,1,1056,-3,1057,1,1060,-39,-2147483648,1,1056,-3,1057,1,1060,-39,-2147483648,1,1056,-3,1057,1,1060,-21,-2147483648,1,36,-16,-2147483648,2,1073742054,
-1056,-3,1057,1,1060,-38,-2147483648,2,1073742055,1056,-3,1057,1,1060,-38,-2147483648,6,1073742056,1056,1057,999,1057,1060,-39,-2147483648,1,1084,-3,1087,1,1088,-31,-2147483648,1,131,-170,-2147483648,],},"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
-    {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_1","tilesetId":{"name":"TileSet3_9","path":"tilesets/TileSet3_9/TileSet3_9.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":44,"SerialiseHeight":31,"TileCompressedData":[
--551,-2147483648,2,216,217,-42,-2147483648,2,216,217,-42,-2147483648,2,216,217,-42,-2147483648,2,216,217,-42,-2147483648,2,216,217,-635,-2147483648,],},"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
-    {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_3","tilesetId":{"name":"pokeball_2","path":"tilesets/pokeball_2/pokeball_2.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":44,"SerialiseHeight":31,"TileCompressedData":[
+1056,-3,1057,1,1060,-38,-2147483648,2,1073742055,1056,-3,1057,1,1060,-38,-2147483648,6,1073742056,1056,1057,999,1057,1060,-39,-2147483648,1,1084,-3,1087,1,1088,-31,-2147483648,1,131,-170,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"pokeball_2","path":"tilesets/pokeball_2/pokeball_2.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+    {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_1","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":31,"SerialiseWidth":44,"TileCompressedData":[
+-551,-2147483648,2,216,217,-42,-2147483648,2,216,217,-42,-2147483648,2,216,217,-42,-2147483648,2,216,217,-42,-2147483648,2,216,217,-635,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"TileSet3_9","path":"tilesets/TileSet3_9/TileSet3_9.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+    {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_3","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":31,"SerialiseWidth":44,"TileCompressedData":[
 -2,859,-3,1089,1,1055,-23,859,2,1089,1055,-9,859,2,1089,1055,-4,859,-3,1089,1,1055,-23,859,2,1089,1111,-9,1112,2,1117,1055,-4,859,-3,1089,1,1111,-23,1112,2,1117,973,-7,
 -2147483648,4,940,-2147483648,-2147483648,1055,-4,859,-3,1089,-7,-2147483648,1,973,-13,-2147483648,1,973,-12,-2147483648,3,999,-2147483648,1055,-4,859,-3,1089,-2,-2147483648,1,999,-11,-2147483648,2,918,919,-19,-2147483648,2,973,1055,-4,859,
 -3,1089,-14,-2147483648,2,946,947,-7,-2147483648,2,1027,1028,-10,1029,2,1032,1055,-4,859,-3,1089,1,973,-22,-2147483648,2,1055,1056,-10,-2147483648,2,1060,1055,-4,859,-3,1089,1,1027,-10,888,1,1033,-5,
@@ -36,31 +29,18 @@
 1,1089,-10,-2147483648,1,1055,-7,859,1,1089,-3,-2147483648,1,1055,-4,859,-3,1089,-7,-2147483648,-6,859,1,1089,-9,-2147483648,2,1110,1111,-7,1112,12,1117,230,231,232,1055,859,859,1115,1115,1117,1089,1089,
 -7,-2147483648,-6,859,1,1089,-4,-2147483648,2,918,919,-4,-2147483648,-2,913,1,973,-6,913,-3,-2147483648,3,1055,859,859,-3,1115,2,1117,1089,-7,-2147483648,1,1083,-5,859,1,1089,-4,-2147483648,2,946,947,-4,
 -2147483648,-9,913,-3,-2147483648,3,1055,859,859,-4,1115,1,1117,-6,-2147483648,2,973,1111,-5,1112,2,1117,973,-9,-2147483648,-9,913,-2,-2147483648,4,973,1055,859,859,-7,888,3,976,977,978,-31,888,1,944,
--43,859,1,1061,-43,859,3,1061,859,859,],},"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
-    {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_2","tilesetId":{"name":"pokeball_2","path":"tilesets/pokeball_2/pokeball_2.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":44,"SerialiseHeight":31,"TileCompressedData":[
+-43,859,1,1061,-43,859,3,1061,859,859,],"TileDataFormat":1,},"tilesetId":{"name":"pokeball_2","path":"tilesets/pokeball_2/pokeball_2.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+    {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_2","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":31,"SerialiseWidth":44,"TileCompressedData":[
 -579,1057,-2,859,-255,1057,-15,861,-29,1057,-15,861,-29,1057,-15,861,-29,1057,-15,861,-29,1057,-15,861,-29,1057,-15,861,-29,1057,-15,861,-29,1057,-15,861,-29,1057,-15,861,-29,1057,-15,861,
--29,1057,-15,861,-29,1057,-15,861,-29,1057,],},"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
-    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","instances":[],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
-    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","spriteId":null,"colour":4278190080,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+-29,1057,-15,861,-29,1057,-15,861,-29,1057,],"TileDataFormat":1,},"tilesetId":{"name":"pokeball_2","path":"tilesets/pokeball_2/pokeball_2.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
+    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "inheritLayers": false,
-  "creationCodeFile": "",
-  "inheritCode": false,
-  "instanceCreationOrder": [],
-  "inheritCreationOrder": false,
-  "sequenceId": null,
-  "roomSettings": {
-    "inheritRoomSettings": false,
-    "Width": 704,
-    "Height": 496,
-    "persistent": false,
+  "parent": {
+    "name": "CaveR10",
+    "path": "folders/Rooms/Caves/CaveR10.yy",
   },
-  "viewSettings": {
-    "inheritViewSettings": false,
-    "enableViews": false,
-    "clearViewBackground": false,
-    "clearDisplayBuffer": true,
-  },
+  "parentRoom": null,
   "physicsSettings": {
     "inheritPhysicsSettings": false,
     "PhysicsWorld": false,
@@ -68,8 +48,28 @@
     "PhysicsWorldGravityY": 10.0,
     "PhysicsWorldPixToMetres": 0.1,
   },
-  "parent": {
-    "name": "CaveR10",
-    "path": "folders/Rooms/Caves/CaveR10.yy",
+  "roomSettings": {
+    "Height": 496,
+    "inheritRoomSettings": false,
+    "persistent": false,
+    "Width": 704,
   },
+  "sequenceId": null,
+  "views": [
+    {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
+  ],
+  "viewSettings": {
+    "clearDisplayBuffer": true,
+    "clearViewBackground": false,
+    "enableViews": false,
+    "inheritViewSettings": false,
+  },
+  "volume": 1.0,
 }
