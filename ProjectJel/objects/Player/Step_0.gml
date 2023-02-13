@@ -1,24 +1,36 @@
+CollisionL = PlayerCollisionL();
+CollisionR = PlayerCollisionR();
+CollisionD = PlayerCollisionD();
+CollisionU = PlayerCollisionU();
+if(CollisionL == false){
 if (keyboard_check(vk_left)){
 	input = move_left;
 	if (alarm[0] == -1)
 		alarm[0] = 1;
 }
-else if (keyboard_check(vk_up)){
+}
+if(CollisionU == false){
+if (keyboard_check(vk_up)){
 	input = move_up;
 	if (alarm[0] == -1)
 		alarm[0] = 1;
 }
-else if (keyboard_check(vk_right)){
+}
+if(CollisionR == false){
+if (keyboard_check(vk_right)){
 	input = move_right;
 	if (alarm[0] == -1)
 		alarm[0] = 1;
 }
-else if (keyboard_check(vk_down)){
+}
+if (CollisionD == false){
+if (keyboard_check(vk_down)){
 	input = move_down;
 	if (alarm[0] == -1)
 		alarm[0] = 1;
 }
-else {
+}
+if (!keyboard_check(vk_down) && !keyboard_check(vk_up) && !keyboard_check(vk_left) && !keyboard_check(vk_right)){
 	input = undefined;
 }
 
