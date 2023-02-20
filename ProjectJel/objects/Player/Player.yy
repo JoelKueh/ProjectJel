@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "Player",
   "spriteId": {
-    "name": "New_Piskel",
-    "path": "sprites/New_Piskel/New_Piskel.yy",
+    "name": "Sus_Idle",
+    "path": "sprites/Sus_Idle/Sus_Idle.yy",
   },
   "solid": false,
   "visible": true,

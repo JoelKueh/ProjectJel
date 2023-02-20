@@ -49,3 +49,4 @@ if(keyboard_check(vk_right) && keyboard_check(vk_down))
 	input = undefined;
 if(keyboard_check(vk_up) && keyboard_check(vk_down))
 	input = undefined;
+
