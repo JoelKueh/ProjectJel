@@ -6,17 +6,29 @@ var _callback = function execute_input() {
 if (input == undefined){
 	sprite_index = Sus_Idle;
 }
-else if (input == move_right){
+else if (input == move_right && running == false){
 	sprite_index = Sus_Walk_Right;	
 }
-else if (input == move_left){
+else if (input == move_right && running == true){
+	sprite_index = Sus_Walk_Right_Run;	
+}
+else if (input == move_left && running == false){
 	sprite_index = Sus_Walk_Left;	
 }
-else if (input == move_down){
+else if (input == move_left && running == true){
+	sprite_index = Sus_Walk_Left_Run;	
+}
+else if (input == move_down && running == false){
 	sprite_index = Sus_Move_Down;
 }
-else if (input == move_up){
+else if (input == move_down && running == true){
+	sprite_index = Sus_Move_Down_Run;
+}
+else if (input == move_up && running == false){
 	sprite_index = Sus_Move_Up;
+}
+else if (input == move_up && running == true){
+	sprite_index = Sus_Move_Up_Run;
 }
 
 //Player Movement

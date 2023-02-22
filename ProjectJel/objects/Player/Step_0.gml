@@ -37,6 +37,15 @@ if (!keyboard_check(vk_down) && !keyboard_check(vk_up) && !keyboard_check(vk_lef
 	input = undefined;
 }
 
+//Run
+if (keyboard_check(ord("X"))){
+	running = true;
+	alarm_interval = 16;
+}
+else{
+	running = false;
+	alarm_interval = 16;
+}
 if(keyboard_check(vk_left) && keyboard_check(vk_right))
 	input = undefined;
 if(keyboard_check(vk_left) && keyboard_check(vk_up))

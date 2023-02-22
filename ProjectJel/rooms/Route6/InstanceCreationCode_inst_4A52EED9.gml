@@ -1,3 +1,3 @@
 targetRoom = FourthGymCity;
-targetX = 1247;
-targetY = 255;
+targetX = 816; // where x = (n (number of tiles you want) * 16) + 1 (remember to add 1!!!)
+targetY = 183;
