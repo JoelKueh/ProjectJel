@@ -1,1 +1,1 @@
-audio_stop_sound(snd_sus);
+audio_stop_sound(sound);

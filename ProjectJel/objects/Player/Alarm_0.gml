@@ -57,7 +57,6 @@ if (input != undefined){
 	for (var i = 0; i < 16; i++) {
 		call_later(i, time_source_units_frames, _callback, false);
 	}
-	
 	alarm[0] = alarm_interval;
 	input = undefined;
 }
@@ -72,7 +71,7 @@ if (input != undefined){
 	current_dir = input;
 	for (var i = 0; i < 16; i++) {
 		call_later(i, time_source_units_frames, _callback, false);
-	}
+		}
 	
 	alarm[0] = alarm_interval;
 	input = undefined;
@@ -87,8 +86,7 @@ if (input != undefined){
 	current_dir = input;
 	for (var i = 0; i < 16; i++) {
 		call_later(i, time_source_units_frames, _callback, false);
-	}
-	
+		}
 	alarm[0] = alarm_interval;
 	input = undefined;
 }

@@ -20,6 +20,7 @@
     {"id":{"name":"F2A","path":"rooms/F2A/F2A.yy",},"order":1,},
     {"id":{"name":"F2B","path":"rooms/F2B/F2B.yy",},"order":2,},
     {"id":{"name":"FRLG_Exterior_Sprite_9","path":"sprites/FRLG_Exterior_Sprite_9/FRLG_Exterior_Sprite_9.yy",},"order":0,},
+    {"id":{"name":"snd_route201","path":"sounds/snd_route201/snd_route201.yy",},"order":76,},
     {"id":{"name":"F3","path":"rooms/F3/F3.yy",},"order":3,},
     {"id":{"name":"FirstGymCity","path":"rooms/FirstGymCity/FirstGymCity.yy",},"order":1,},
     {"id":{"name":"FourthGymCity","path":"rooms/FourthGymCity/FourthGymCity.yy",},"order":2,},
