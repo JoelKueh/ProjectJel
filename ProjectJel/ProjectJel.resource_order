@@ -9,8 +9,8 @@
     {"name":"Init","order":3,"path":"folders/Rooms/Init.yy",},
     {"name":"Routes","order":2,"path":"folders/Rooms/Routes.yy",},
     {"name":"Towns","order":1,"path":"folders/Rooms/Towns.yy",},
-    {"name":"Tile Sets","order":6,"path":"folders/Tile Sets.yy",},
     {"name":"Sprites","order":56,"path":"folders/Sprites.yy",},
+    {"name":"Tile Sets","order":6,"path":"folders/Tile Sets.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"Exterior_FRLG_TS_11","order":49,"path":"tilesets/Exterior_FRLG_TS_11/Exterior_FRLG_TS_11.yy",},
