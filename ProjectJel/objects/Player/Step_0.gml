@@ -40,7 +40,7 @@ if (!keyboard_check(vk_down) && !keyboard_check(vk_up) && !keyboard_check(vk_lef
 //Run
 if (keyboard_check(ord("X"))){
 	running = true;
-	//alarm_interval = 8;
+	alarm_interval = 16;
 }
 else{
 	running = false;
