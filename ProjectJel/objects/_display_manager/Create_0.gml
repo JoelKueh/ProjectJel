@@ -5,4 +5,4 @@ global.scr_height = 192;
 
 display_set_gui_size(global.scr_width, global.scr_height);
 
-room_goto(Battle_Scene);
+room_goto(Route6);
