@@ -1,39 +1,32 @@
-const {Dex} = require('pokemon-showdown');
-const {Teams} = require('pokemon-showdown');
-const Sim = require('pokemon-showdown');
-const https = require('https');
-const fs = require('fs');
 const { argv } = require('process');
+const bstrm = require('bs.js');
+import { Buffer } from 'node:buffer';
 
-stream = new Sim.BattleStream();
+const net = require('net');
+const host = 'localhost';
+const port = 23282;
 
-// DEBUG
-start_battle();
+const server = net.createServer();
+server.listen(port, host, () => {
+	// DEBUG
+	console.log('TCP Server is running on port ' + port + '.');
+});
 
-// (async () => {
-//   for await (const output of stream) {
-//     console.log(output);
-//   }
-// })();
+let sockets = [];
+server.on('connection', function(sock) {
+	console.log('CON: ' + sock.remoteAddress + ':' + sock.remotePort);
+	sockets.push(sock);
 
-function start_battle(team_id) {
-  stream.write('>start {"formatid":"[Gen 8] National Dex AG"}');
-  stream.write('>player p1 {"name":"Alice"}');
-  stream.write('>player p2 {"name":"Bob"}');
+	if (sockets.length > 1) {
+		console.log('MORE THAN ON CLIENT IS CURRENTLY CONNECTED');
+		console.log('PREVIOUS CLIENT WAS NOT KILLED PROPPERLY');
+	}
 
-  for(var i = 0; i < argv.length; i++)
-  {
-    console.log(argv[i]);
-  }
-}
+	sock.on('data', function(data) {
+		console.log('DATA ' + sock.remoteAddress + ': ' + data);
 
-function retrieve_player() {
-  
-}
 
-function retrieve_opponent() {
-  
-}
+
 
 setTimeout(() => {
   console.log("Delayed for 1 second.");
