@@ -1,6 +1,6 @@
 const { argv } = require('process');
-const bstrm = require('bs.js');
-import { Buffer } from 'node:buffer';
+const bstrm = require('./bs.js');
+const { Buffer } = require('buffer');
 
 const net = require('net');
 const host = 'localhost';
@@ -23,10 +23,21 @@ server.on('connection', function(sock) {
 	}
 
 	sock.on('data', function(data) {
+		// DEBUG
 		console.log('DATA ' + sock.remoteAddress + ': ' + data);
+		sockets.forEach(function(sock, index, array) {
+			sock.write(sock.remoteAddress + ':' + sock.remotePort + " said " + data + '\n');
+		});
+	});
 
-
-
+	sock.on('close', function(data) {
+		let index = sockets.findIndex(function(o) {
+			return o.remoteAddress === sock.remoteAddress && o.remotePort === sock.remotePort;
+		})
+		if (index !== -1) sockets.splice(index, 1);
+		console.log('CLOSED: ' + sock.remoteAddress + ' ' + sock.remotePort);
+	});
+});
 
 setTimeout(() => {
   console.log("Delayed for 1 second.");
