@@ -11,5 +11,5 @@ while(Player.y mod 16 != 0){
 	Player.y -= 1;
 }
 
-Player.y += 8;
-Player.x += 8;
+Player.y += plusY;
+Player.x += plusX;

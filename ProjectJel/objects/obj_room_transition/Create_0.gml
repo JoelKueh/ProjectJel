@@ -1,1 +1,1 @@
-var targetRoom, targetX, targetY;
+var targetRoom, targetX, targetY, plusX, plusY;
