@@ -263,6 +263,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"_init","path":"rooms/_init/_init.yy",},},
     {"roomId":{"name":"Battle_Scene","path":"rooms/Battle_Scene/Battle_Scene.yy",},},
     {"roomId":{"name":"CaveR3","path":"rooms/CaveR3/CaveR3.yy",},},
     {"roomId":{"name":"Cycling_Road","path":"rooms/Cycling_Road/Cycling_Road.yy",},},
@@ -311,7 +312,6 @@
     {"roomId":{"name":"ThirdGymCity","path":"rooms/ThirdGymCity/ThirdGymCity.yy",},},
     {"roomId":{"name":"TownR12","path":"rooms/TownR12/TownR12.yy",},},
     {"roomId":{"name":"TownR4","path":"rooms/TownR4/TownR4.yy",},},
-    {"roomId":{"name":"_init","path":"rooms/_init/_init.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Battle_Scene","folderPath":"folders/Battle_Scene.yy","order":2,},
