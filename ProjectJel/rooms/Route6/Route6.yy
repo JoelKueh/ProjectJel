@@ -7,7 +7,6 @@
   "inheritCreationOrder": false,
   "inheritLayers": false,
   "instanceCreationOrder": [
-    {"name":"inst_46A02094","path":"rooms/Route6/Route6.yy",},
     {"name":"inst_2AA358E","path":"rooms/Route6/Route6.yy",},
     {"name":"inst_1A696CF6","path":"rooms/Route6/Route6.yy",},
     {"name":"inst_290B58FF","path":"rooms/Route6/Route6.yy",},
@@ -49,7 +48,6 @@
 490,491,490,491,490,491,490,491,490,491,-8,0,2,490,491,-111,0,2,490,491,-40,0,2,490,491,-63,0,2,490,491,-81,0,2,490,491,-4,0,2,490,491,-56,0,2,490,491,-381,0,2,490,491,-68,0,2,490,491,-12,0,2,490,491,-54,0,2,490,491,-8,0,2,
 490,491,-62,0,4,490,491,490,491,-60,0,4,490,491,490,491,-283,0,-3,418,1,335,-18,0,1,389,-49,0,2,418,335,-16,0,1,389,-50,0,1,390,-16,0,1,389,-50,0,1,390,-16,0,1,389,-50,0,1,390,-16,0,1,389,-14,0,],"TileDataFormat":1,},"tilesetId":{"name":"Exterior_FRLG_TS_7","path":"tilesets/Exterior_FRLG_TS_7/Exterior_FRLG_TS_7.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":500,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_46A02094","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Player","path":"objects/Player/Player.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":760.0,"y":808.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2AA358E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_pokeball","path":"objects/obj_pokeball/obj_pokeball.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":416.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1A696CF6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_pokeball","path":"objects/obj_pokeball/obj_pokeball.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":640.0,"y":224.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_290B58FF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_pokeball","path":"objects/obj_pokeball/obj_pokeball.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":832.0,"y":288.0,},
