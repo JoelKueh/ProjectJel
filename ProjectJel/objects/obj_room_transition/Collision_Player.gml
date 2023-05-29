@@ -1,4 +1,5 @@
 input = undefined;
+stopMoving = true;
 room_goto(targetRoom);
 Player.x = targetX;
 Player.y = targetY;
@@ -18,3 +19,5 @@ collisionMap = layer_tilemap_get_id(layer_get_id("Col"));
 collisionMapLedge = layer_tilemap_get_id(layer_get_id("LedgeD"));
 collisionMapLedgeL = layer_tilemap_get_id(layer_get_id("LedgeL"));
 collisionMapLedgeR = layer_tilemap_get_id(layer_get_id("LedgeR"));
+
+stopMoving = false;
