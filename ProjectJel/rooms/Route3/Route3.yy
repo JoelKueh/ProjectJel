@@ -31,7 +31,6 @@
 -2147483648,3,1,-2147483648,1,-3,-2147483648,1,1,-5,-2147483648,1,1,-37,-2147483648,3,1,-2147483648,1,-9,-2147483648,1,1,-37,-2147483648,3,1,-2147483648,1,-9,-2147483648,1,1,-37,-2147483648,3,1,-2147483648,1,-9,-2147483648,1,1,-37,-2147483648,3,1,-2147483648,1,-9,
 -2147483648,1,1,-37,-2147483648,3,1,-2147483648,1,-3,-2147483648,1,1,-5,-2147483648,1,1,-37,-2147483648,3,1,-2147483648,1,-3,-2147483648,1,1,-5,-2147483648,1,1,-6,-2147483648,],},"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_690755F2","properties":[],"isDnd":false,"objectId":{"name":"Player","path":"objects/Player/Player.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":568.0,"y":520.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_52C95555","properties":[],"isDnd":false,"objectId":{"name":"obj_room_transition","path":"objects/obj_room_transition/obj_room_transition.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.5,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":544.0,"y":592.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_383AD3BC","properties":[],"isDnd":false,"objectId":{"name":"obj_room_transition","path":"objects/obj_room_transition/obj_room_transition.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":496.0,"y":592.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2D0D4EB7","properties":[],"isDnd":false,"objectId":{"name":"obj_room_transition","path":"objects/obj_room_transition/obj_room_transition.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":3.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":600.0,"y":592.0,},
@@ -84,7 +83,6 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_690755F2","path":"rooms/Route3/Route3.yy",},
     {"name":"inst_52C95555","path":"rooms/Route3/Route3.yy",},
     {"name":"inst_383AD3BC","path":"rooms/Route3/Route3.yy",},
     {"name":"inst_2D0D4EB7","path":"rooms/Route3/Route3.yy",},
