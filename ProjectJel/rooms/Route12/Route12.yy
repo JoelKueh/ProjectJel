@@ -12,7 +12,7 @@
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"LedgeD","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":50,"SerialiseWidth":47,"TileCompressedData":[
--681,-2147483648,-6,1,-400,-2147483648,-3,1,-232,-2147483648,-3,1,-748,-2147483648,-14,1,-263,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"tLedge","path":"tilesets/tLedge/tLedge.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
+-681,-2147483648,-6,1,-400,-2147483648,-3,1,-232,-2147483648,-3,1,-748,-2147483648,-14,1,-263,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"tLedge","path":"tilesets/tLedge/tLedge.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Col","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":50,"SerialiseWidth":47,"TileCompressedData":[
 -3,-2147483648,1,1,-9,-2147483648,1,1,-10,-2147483648,-2,1,-24,-2147483648,1,1,-8,-2147483648,-2,1,-10,-2147483648,-2,1,-24,-2147483648,1,1,-9,-2147483648,1,1,-10,-2147483648,-2,1,-24,-2147483648,1,1,-9,-2147483648,1,1,-10,-2147483648,-2,
 1,-24,-2147483648,1,1,-9,-2147483648,1,1,-10,-2147483648,-2,1,-24,-2147483648,1,1,-9,-2147483648,1,1,-10,-2147483648,-2,1,-6,-2147483648,-6,1,-12,-2147483648,1,1,-9,-2147483648,1,1,-10,-2147483648,-2,1,-6,-2147483648,1,1,-4,-2147483648,
