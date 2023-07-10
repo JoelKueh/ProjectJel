@@ -5,8 +5,8 @@ function EncounterPercent(){
 		{
 			// have fun joel hehe go to battle
 			EFunctionVar = 2;
-			Encounter_X = x;
-			Encounter_Y = y;
+			Encounter_X = Player.x;
+			Encounter_Y = Player.y;
 			Encounter_Room = room;
 		}
 }

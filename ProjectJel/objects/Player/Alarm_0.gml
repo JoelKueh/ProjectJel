@@ -49,6 +49,10 @@ if (input != undefined){
 	{
 		EFunctionVar = 0;	
 	}
+	//TrainerCol = TrainerCollision();
+	//if(TrainerCol == true){
+	//	TrainerText();	
+	//}
 	alarm[0] = alarm_interval;
 	input = undefined;
 }
@@ -72,6 +76,10 @@ if (input != undefined){
 	{
 		EFunctionVar = 0;	
 	}
+	//TrainerCol = TrainerCollision();
+	//if(TrainerCol == true){
+	//	TrainerText();	
+	//}
 	alarm[0] = alarm_interval;
 	input = undefined;
 }
@@ -95,6 +103,10 @@ if (input != undefined){
 	{
 		EFunctionVar = 0;	
 	}
+	//TrainerCol = TrainerCollision();
+	//if(TrainerCol == true){
+	//	TrainerText();	
+	//}
 	alarm[0] = alarm_interval;
 	input = undefined;
 }
@@ -117,6 +129,10 @@ if (input != undefined){
 	{
 		EFunctionVar = 0;	
 	}
+	//TrainerCol = TrainerCollision();
+	//if(TrainerCol == true){
+	//	TrainerText();	
+	//}
 	alarm[0] = alarm_interval;
 	input = undefined;
 }

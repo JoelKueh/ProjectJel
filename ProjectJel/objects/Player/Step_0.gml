@@ -5,6 +5,10 @@ CollisionU = PlayerCollisionU();
 CollisionLedgeD = PlayerCollisionLedgeD();
 CollisionLedgeL = PlayerCollisionLedgeL();
 CollisionLedgeR = PlayerCollisionLedgeR();
+
+
+if(global.textUp != true){
+
 if(CollisionL == false && CollisionLedgeR == false){
 if (keyboard_check(vk_left)){
 	input = move_left;
@@ -33,6 +37,7 @@ if (keyboard_check(vk_down)){
 		alarm[0] = 1;
 }
 }
+
 if (!keyboard_check(vk_down) && !keyboard_check(vk_up) && !keyboard_check(vk_left) && !keyboard_check(vk_right)){
 	input = undefined;
 }
@@ -58,6 +63,8 @@ if(keyboard_check(vk_right) && keyboard_check(vk_down))
 	input = undefined;
 if(keyboard_check(vk_up) && keyboard_check(vk_down))
 	input = undefined;
+
+}
 
 collisionMap = layer_tilemap_get_id(layer_get_id("Col"));
 collisionMapLedge = layer_tilemap_get_id(layer_get_id("LedgeD"));
