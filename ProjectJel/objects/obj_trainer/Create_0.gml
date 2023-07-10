@@ -1,1 +1,1 @@
-global.myTextbox = noone;
+myTextbox = noone;
