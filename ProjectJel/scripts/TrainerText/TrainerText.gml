@@ -15,11 +15,19 @@ if(room == Route8){
 			return(text);
 		}
 	}
-}
 
 if(room == Sandstone_Passage_F1){
 		if(global.TrainerID == 100032){
 			text = "Never gonna give you up";
 			return(text);
 		}
+	}
+
+if(room == Sandstone_Passage_F2){
+		if(global.TrainerID == -4){
+			text = "Never gonna let you down";
+			return(text);
+		}
+	}
+
 }
