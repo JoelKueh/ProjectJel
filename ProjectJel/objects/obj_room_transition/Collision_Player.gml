@@ -1,4 +1,7 @@
 input = undefined;
+
+instance_create_depth(0, 0, -9999, obj_fade);
+
 room_goto(targetRoom);
 Player.x = targetX;
 Player.y = targetY;
