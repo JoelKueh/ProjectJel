@@ -1,1 +1,2 @@
 myTextbox = noone;
+spaceReleased = true;
