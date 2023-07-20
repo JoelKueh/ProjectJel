@@ -16,3 +16,5 @@ EFunctionVar = 0;
 global.textUp = false;
 
 global.TrainerID = 0;
+
+global.gamePaused = false;

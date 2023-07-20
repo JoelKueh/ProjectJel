@@ -6,8 +6,18 @@ CollisionLedgeD = PlayerCollisionLedgeD();
 CollisionLedgeL = PlayerCollisionLedgeL();
 CollisionLedgeR = PlayerCollisionLedgeR();
 
+//Pause Menu
+if (keyboard_check_pressed(ord("F")) && global.textUp != true){
+	global.gamePaused = true;
+}
+		if (keyboard_check_pressed(ord("V"))){
+			global.gamePaused = false;
+		}
 
-if(global.textUp != true){
+
+// MOVEMENT
+
+if(global.textUp != true && global.gamePaused != true){
 
 if(CollisionL == false && CollisionLedgeR == false){
 if (keyboard_check(vk_left)){

@@ -5,20 +5,20 @@ if(room == Route8){
 			return(text);
 		}
 		
-		if(global.TrainerID == 100037){
+		if(global.TrainerID == 100037 || 100034){
 			text = "Mom";
 			return(text);
 		}
 		
-		if(global.TrainerID == 100038){
+		if(global.TrainerID == 100038 || 100033){
 			text = "Gotteem";
 			return(text);
 		}
 	}
 
 if(room == Sandstone_Passage_F1){
-		if(global.TrainerID == 100032){
-			text = "Never gonna give you up";
+		if(global.TrainerID == 100001){
+			text = "Never gonna give you up, never gonna let you down";
 			return(text);
 		}
 	}

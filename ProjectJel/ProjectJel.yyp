@@ -244,6 +244,7 @@
     {"id":{"name":"Ruby_Path_TS","path":"tilesets/Ruby_Path_TS/Ruby_Path_TS.yy",},"order":46,},
     {"id":{"name":"tCol","path":"tilesets/tCol/tCol.yy",},"order":47,},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"order":48,},
+    {"id":{"name":"oPause","path":"objects/oPause/oPause.yy",},"order":10,},
     {"id":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},"order":49,},
     {"id":{"name":"TileSet3","path":"tilesets/TileSet3/TileSet3.yy",},"order":50,},
     {"id":{"name":"TileSet3_1","path":"tilesets/TileSet3_1/TileSet3_1.yy",},"order":51,},
