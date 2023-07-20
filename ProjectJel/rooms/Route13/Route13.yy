@@ -52,9 +52,9 @@
 256,256,282,6,6,580,498,520,521,520,521,468,468,580,608,580,492,493,492,493,468,470,520,521,492,493,-8,34,1,35,-6,34,23,35,34,470,468,546,
 547,546,547,580,524,608,580,498,520,521,520,521,468,470,546,547,520,521,-8,62,30,35,62,35,62,6,199,171,200,62,470,518,519,468,468,580,608,580,
 524,498,468,492,493,492,493,437,552,552,442,546,547,-8,6,29,35,6,6,35,34,169,168,170,6,470,546,547,580,524,608,580,498,468,518,519,520,521,
-520,521,468,518,519,552,442,-11,34,27,35,34,62,169,168,170,437,470,468,580,608,580,524,498,468,468,546,547,546,547,546,547,468,546,547,468,582,-12,
-523,11,442,6,169,168,170,34,554,580,608,580,498,-3,468,3,518,519,468,-8,523,-12,551,18,610,470,34,169,168,170,34,554,554,580,498,518,519,518,
-519,546,547,468,-19,551,16,610,470,470,62,169,168,170,34,554,554,470,468,546,547,546,547,-3,468,],"TileDataFormat":1,},"tilesetId":{"name":"Exterior_FRLG_TS_19","path":"tilesets/Exterior_FRLG_TS_19/Exterior_FRLG_TS_19.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+520,521,468,518,519,552,442,-11,34,26,35,34,62,169,168,170,437,470,468,580,608,580,524,498,468,468,546,547,546,547,546,547,468,546,547,468,-13,552,
+11,442,6,169,168,170,34,554,580,608,580,498,-3,468,3,518,519,468,-8,523,-12,551,18,442,470,34,169,168,170,34,554,554,580,498,518,519,518,519,
+546,547,468,-19,551,16,610,470,470,62,169,168,170,34,554,554,470,468,546,547,546,547,-3,468,],"TileDataFormat":1,},"tilesetId":{"name":"Exterior_FRLG_TS_19","path":"tilesets/Exterior_FRLG_TS_19/Exterior_FRLG_TS_19.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_3","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":38,"SerialiseWidth":38,"TileCompressedData":[
 -563,-2147483648,1,36,-880,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"Exterior_FRLG_TS","path":"tilesets/Exterior_FRLG_TS/Exterior_FRLG_TS.yy",},"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"STUFF","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":38,"SerialiseWidth":38,"TileCompressedData":[
