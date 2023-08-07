@@ -74,10 +74,7 @@ if(keyboard_check(vk_right) && keyboard_check(vk_down))
 if(keyboard_check(vk_up) && keyboard_check(vk_down))
 	input = undefined;
 
-}
-
 collisionMap = layer_tilemap_get_id(layer_get_id("Col"));
 collisionMapLedge = layer_tilemap_get_id(layer_get_id("LedgeD"));
 collisionMapLedgeL = layer_tilemap_get_id(layer_get_id("LedgeL"));
 collisionMapLedgeR = layer_tilemap_get_id(layer_get_id("LedgeR"));
-encounterMap = layer_tilemap_get_id(layer_get_id("Grass"));
