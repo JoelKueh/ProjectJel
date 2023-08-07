@@ -1,0 +1,1 @@
+//draw_text(10, 50, global.TrainerID);

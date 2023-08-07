@@ -41,7 +41,18 @@ if (input != undefined){
 	for (var i = 0; i < 16; i++) {
 		call_later(i, time_source_units_frames, _callback, false);
 	}
-	
+	GrassCol = GrassCollision();
+	if(GrassCol == true){
+		EncounterPercent();
+	}
+	else
+	{
+		EFunctionVar = 0;	
+	}
+	//TrainerCol = TrainerCollision();
+	//if(TrainerCol == true){
+	//	TrainerText();	
+	//}
 	alarm[0] = alarm_interval;
 	input = undefined;
 }
@@ -57,6 +68,18 @@ if (input != undefined){
 	for (var i = 0; i < 16; i++) {
 		call_later(i, time_source_units_frames, _callback, false);
 	}
+	GrassCol = GrassCollision();
+	if(GrassCol == true){
+		EncounterPercent();
+	}
+	else
+	{
+		EFunctionVar = 0;	
+	}
+	//TrainerCol = TrainerCollision();
+	//if(TrainerCol == true){
+	//	TrainerText();	
+	//}
 	alarm[0] = alarm_interval;
 	input = undefined;
 }
@@ -72,7 +95,18 @@ if (input != undefined){
 	for (var i = 0; i < 16; i++) {
 		call_later(i, time_source_units_frames, _callback, false);
 		}
-	
+	GrassCol = GrassCollision();
+	if(GrassCol == true){
+		EncounterPercent();
+	}
+	else
+	{
+		EFunctionVar = 0;	
+	}
+	//TrainerCol = TrainerCollision();
+	//if(TrainerCol == true){
+	//	TrainerText();	
+	//}
 	alarm[0] = alarm_interval;
 	input = undefined;
 }
@@ -87,6 +121,18 @@ if (input != undefined){
 	for (var i = 0; i < 16; i++) {
 		call_later(i, time_source_units_frames, _callback, false);
 		}
+	GrassCol = GrassCollision();
+	if(GrassCol == true){
+		EncounterPercent();
+	}
+	else
+	{
+		EFunctionVar = 0;	
+	}
+	//TrainerCol = TrainerCollision();
+	//if(TrainerCol == true){
+	//	TrainerText();	
+	//}
 	alarm[0] = alarm_interval;
 	input = undefined;
 }

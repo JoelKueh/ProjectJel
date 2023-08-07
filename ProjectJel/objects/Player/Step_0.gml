@@ -5,6 +5,20 @@ CollisionU = PlayerCollisionU();
 CollisionLedgeD = PlayerCollisionLedgeD();
 CollisionLedgeL = PlayerCollisionLedgeL();
 CollisionLedgeR = PlayerCollisionLedgeR();
+
+//Pause Menu
+if (keyboard_check_pressed(ord("F")) && global.textUp != true){
+	global.gamePaused = true;
+}
+		if (keyboard_check_pressed(ord("V"))){
+			global.gamePaused = false;
+		}
+
+
+// MOVEMENT
+
+if(global.textUp != true && global.gamePaused != true){
+
 if(CollisionL == false && CollisionLedgeR == false){
 if (keyboard_check(vk_left)){
 	input = move_left;
@@ -33,6 +47,7 @@ if (keyboard_check(vk_down)){
 		alarm[0] = 1;
 }
 }
+
 if (!keyboard_check(vk_down) && !keyboard_check(vk_up) && !keyboard_check(vk_left) && !keyboard_check(vk_right)){
 	input = undefined;
 }
