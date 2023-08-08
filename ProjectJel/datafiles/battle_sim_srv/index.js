@@ -1,15 +1,14 @@
 const { argv } = require('process');
 const bstrm = require('./bs.js');
-const { Buffer } = require('buffer');
 
 const net = require('net');
-const host = 'localhost';
-const port = 23282;
+const HOST = 'localhost';
+const PORT = 23282;
 
 const server = net.createServer();
-server.listen(port, host, () => {
+server.listen(PORT, HOST, () => {
 	// DEBUG
-	console.log('TCP Server is running on port ' + port + '.');
+	console.log('TCP Server is running on port ' + PORT + '.');
 });
 
 let sockets = [];
@@ -18,7 +17,7 @@ server.on('connection', function(sock) {
 	sockets.push(sock);
 
 	if (sockets.length > 1) {
-		console.log('MORE THAN ON CLIENT IS CURRENTLY CONNECTED');
+		console.log('MORE THAN ONE CLIENT IS CURRENTLY CONNECTED');
 		console.log('PREVIOUS CLIENT WAS NOT KILLED PROPPERLY');
 	}
 
@@ -37,12 +36,17 @@ server.on('connection', function(sock) {
 		if (index !== -1) sockets.splice(index, 1);
 		console.log('CLOSED: ' + sock.remoteAddress + ' ' + sock.remotePort);
 	});
+
+	sock.on('error', (err) => {
+		if (err.code === 'ECONNRESET') {
+			console.log('Connection reset by peer');
+		} else {
+			console.log(`Unexpected error: ${err.code}`);
+			throw err;
+		}
+	})
 });
 
 setTimeout(() => {
   console.log("Delayed for 1 second.");
 }, 5000)
-
-setTimeout(() => {
-  console.log("Delayed for 1 second.");
-}, process.argv[2]);
