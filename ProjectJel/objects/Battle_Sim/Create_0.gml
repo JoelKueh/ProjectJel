@@ -1,8 +1,11 @@
-/// @description Insert description here
-// You can write your code in this editor
+// Creates the socket to communicate with the battle server.
+// All information is communicated via text stream.
+port = 23282;
+host = "localhost";
 
-Battle_Sim_Output = Start_Battle_Srv();
-
-show_message(Battle_Sim_Output);
+// Create the socket
+show_debug_message("Connecting to Server")
+client_socket = network_create_socket(network_socket_ws);
+server = network_connect_raw_async(client_socket, host, port);
 
 sp = sprite_add("battle_backgrounds/cave_bb.png",1,false,false,0,0);

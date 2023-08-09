@@ -54,7 +54,6 @@ func double Start_Battle_Srv()
         &startup_info,
         &process_info
     );
-    WaitForSingleObject(process_info.hProcess, INFINITE);
 
     if (result)
         return port_num;

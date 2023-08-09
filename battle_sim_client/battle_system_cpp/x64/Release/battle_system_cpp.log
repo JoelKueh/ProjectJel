@@ -1,0 +1,9 @@
+﻿  pch.cpp
+  dllmain.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\filesystem(13): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+     Creating library C:\Users\joelk\Desktop\src\ProjectJelRecovery\battle_sim_client\x64\Release\battle_system_cpp.lib and object C:\Users\joelk\Desktop\src\ProjectJelRecovery\battle_sim_client\x64\Release\battle_system_cpp.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 100 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  battle_system_cpp.vcxproj -> C:\Users\joelk\Desktop\src\ProjectJelRecovery\battle_sim_client\x64\Release\battle_system_cpp.dll

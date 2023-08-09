@@ -1,6 +1,8 @@
 {
   "dependencies": {
     "https": "^1.0.0",
-    "pokemon-showdown": "^0.11.7"
+    "patchwire": "^0.5.0",
+    "pokemon-showdown": "^0.11.7",
+    "ws": "^8.13.0"
   }
 }
