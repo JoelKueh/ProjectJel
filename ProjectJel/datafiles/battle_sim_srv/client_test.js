@@ -1,10 +1,7 @@
-const net = require('net')
+const ws = require('ws')
 const PORT = 23282
 const HOST = 'localhost'
 
-client = new net.Socket();
+client = new ws.WebSocket(`ws://${HOST}:${PORT}`);
 
-client.connect(PORT, HOST, function() {
-    console.log('Connected')
-    client.write('Hello From Client ' + client.address().address)
-})
+client.on('message', msg => console.log(msg));
