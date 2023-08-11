@@ -1,1 +1,0 @@
-global.font_main = font_add_sprite(Emerald_Font, 32, true, 1);
