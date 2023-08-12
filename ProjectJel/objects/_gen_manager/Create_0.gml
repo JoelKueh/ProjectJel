@@ -2,4 +2,4 @@
 show_debug_message("Starting Server");
 //Start_Battle_Srv();
 
-room_goto(Battle_Scene);
+room_goto(Route5);

@@ -50,7 +50,16 @@ if(room == Sandstone_Passage_F2){
 		}
 	}
 	
-	
+if(room == Route5){
+		if(global.TrainerID == 019){
+			text = "mega brain";
+			return(text);
+		}
+		if(global.TrainerID == 519){
+			text = "for real";
+			return(text);
+		}
+	}
 	
 	
 	
